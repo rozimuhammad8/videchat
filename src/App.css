@@ -1,0 +1,36 @@
+/* App.css */
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .videos {
+    display: flex;
+  }
+  
+  .localVideo,
+  .remoteVideo {
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
